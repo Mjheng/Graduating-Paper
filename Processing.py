@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-import pandas as pd
+import pandas
 import numpy as np
 from sklearn import preprocessing
 from sklearn import svm
 from sklearn import model_selection
+import os
 
 # read the data
 df = pandas.read_csv('sportsectordatareal.csv')
